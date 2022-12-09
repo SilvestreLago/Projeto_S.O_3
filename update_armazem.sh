@@ -95,7 +95,7 @@ case $A1 in
                         echo "Sinto muito, item inexistente"
                 fi;;
 
- 4)
+        4)
                 clear
 
                 #MOSTRA O ESTOQUE
