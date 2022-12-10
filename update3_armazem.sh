@@ -71,8 +71,8 @@ do
         read A1
 
         #DIRETÓRIO DO ESTOQUE E DOS PRODUTOS
-        ES=/home/$USER/estoque
-        EP=/home/$USER/estoque/produtos
+        ES=/home/$USER/.estoque
+        EP=/home/$USER/.estoque/produtos
 
         #SE O DIRETORIO DO ESTOQUE OU DOS PRODUTOS E DADOS NÃO EXISTIR, COMANDO PARA CRIAR
         if [ ! -d $ES ]; then
